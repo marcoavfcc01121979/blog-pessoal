@@ -11,7 +11,7 @@ import { useSiteConfigQuery } from 'hooks/useSiteConfigQuery'
 //context
 import { ModeContext } from 'context/ModeProvider'
 //styles
-import { Wrapper, Logo } from './styles'
+import { Wrapper } from './styles'
 
 const Header = ({ siteTitle = `` }) => {
   const siteConfig = useSiteConfigQuery()
